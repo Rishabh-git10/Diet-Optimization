@@ -2,7 +2,6 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Layout from "./components/Layout";
 import Home from "./pages/Home";
 import Input from "./pages/Input";
-import Output from "./pages/Output";
 import About from "./pages/About";
 
 export default function App() {
@@ -16,7 +15,6 @@ export default function App() {
             path="/input"
             element={<Input />}
           />
-          <Route path="/output" element={<Output />} />
           <Route path="/about" element={<About />} />
         </Route>
       </Routes>
