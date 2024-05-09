@@ -1,0 +1,64 @@
+const data = [
+    {
+        name: "broccoli",
+        costPer100g: 10,
+        calories: 34,
+        macronutrients: {
+            protein: 2.8,
+            fat: 0.4,
+        },
+        micronutrients: {
+            potassium: 316,
+        },
+    },
+    {
+        name: "asparagus",
+        costPer100g: 15,
+        calories: 20,
+        macronutrients: {
+            protein: 2.2,
+            fat: 0.2,
+        },
+        micronutrients: {
+            potassium: 202,
+        },
+    },
+    {
+        name: "potatoes",
+        costPer100g: 18,
+        calories: 77,
+        macronutrients: {
+            protein: 2,
+            fat: 0.1,
+        },
+        micronutrients: {
+            potassium: 429,
+        },
+    },
+    {
+        name: "chicken",
+        costPer100g: 30,
+        calories: 165,
+        macronutrients: {
+            protein: 31,
+            fat: 3.6,
+        },
+        micronutrients: {
+            potassium: 318,
+        },
+    },
+    {
+        name: "fish",
+        costPer100g: 40,
+        calories: 206,
+        macronutrients: {
+            protein: 22,
+            fat: 13,
+        },
+        micronutrients: {
+            potassium: 363,
+        },
+    },
+];
+
+export default data;
